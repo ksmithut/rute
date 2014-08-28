@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+- "0.11"
+- "0.10"
+env:
+- secure: E+sCcnxLNg7+pl8qtzfrEMIYvomte5sbFPpkvO77Ax2VNBZycVB3X6GhH7KQDaqogbs0EgKHyuc69DzlYgwIAM2K4hs2HjSd1SUraIJbAdqJmMb813+FToJYUlRJK6sTxVgnwuasAWbP3DhkQE8tIhfFY12v8gZjTGTrREEOjmU=
+after_success: npm run codeclimate
