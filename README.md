@@ -25,3 +25,17 @@ Make sure that the path you put in is an absolute path.
 ```javascript
 require('rute').root(__dirname, '../');
 ```
+
+Note that you can only call `.root()` successfully once, and you must do it
+before you use it to require anything using `rute`. This prevents any
+unexpected behavior when trying to change the root that `rute` used. I may be
+convinced in the future to make a more dynamic system.
+
+Issues
+======
+
+I accept pull requests (as long as it doesn't detract from the original purpose
+of the module)
+
+It shouldn't be do hard to understand the code. It less lines of code than this
+README.
