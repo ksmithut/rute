@@ -1,6 +1,6 @@
 {
   "name": "rute",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows you to require stuff from your project root",
   "main": "index.js",
   "scripts": {
